@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-cloud-demo" />
+        <module name="springboot-actuator-demo" />
+        <module name="springboot-mongodb-demo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo" target="1.8" />
+      <module name="spring-cloud-demo" target="1.5" />
+      <module name="springboot-actuator-demo" target="1.8" />
+      <module name="springboot-mongodb-demo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
