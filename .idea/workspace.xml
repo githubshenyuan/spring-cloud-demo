@@ -209,7 +209,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="683" />
@@ -317,8 +317,8 @@
     <list>
       <item itemvalue="Spring Boot.SpringbootMongodbDemoApplication" />
       <item itemvalue="Spring Boot.DemoApplication" />
-      <item itemvalue="JUnit.SpringbootMongodbDemoApplicationTests.contextLoads" />
       <item itemvalue="Spring Boot.SpringbootActuatorDemoApplication" />
+      <item itemvalue="JUnit.SpringbootMongodbDemoApplicationTests.contextLoads" />
     </list>
     <recent_temporary>
       <list>
