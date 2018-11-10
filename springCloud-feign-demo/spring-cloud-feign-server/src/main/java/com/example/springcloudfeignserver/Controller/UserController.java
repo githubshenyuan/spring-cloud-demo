@@ -23,7 +23,7 @@ public class UserController implements UserApi {
     @Override
     @PostMapping("/setUser")
     public void setUser(@RequestParam(name = "userName")String userName , @RequestParam(name = "password") String password) {
-        System.out.println("注册用户 ");
+        System.out.println("注册用户-------修改 ");
     }
 
 

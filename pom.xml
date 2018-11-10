@@ -13,5 +13,7 @@
         <module>springboot-mongodb-demo</module>
         <module>springboot-actuator-demo</module>
         <module>springCloud-feign-demo</module>
+        <module>springboot-devtools-demo</module>
+        <module>springboot-security-demo</module>
     </modules>
 </project>
