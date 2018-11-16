@@ -6,10 +6,14 @@
 
     <groupId>com.example</groupId>
     <artifactId>spring-cloud-demo</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
     <modules>
         <module>springboot-mongodb-demo</module>
         <module>springboot-actuator-demo</module>
+        <module>springCloud-feign-demo</module>
+        <module>springboot-devtools-demo</module>
+        <module>springboot-security-demo</module>
     </modules>
 </project>
