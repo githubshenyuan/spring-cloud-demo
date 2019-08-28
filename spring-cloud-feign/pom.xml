@@ -10,6 +10,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>spring-cloud-feign</artifactId>
+    <properties>
+        <java.version>1.8</java.version>
+        <spring-cloud.version>Greenwich.SR2</spring-cloud.version>
+    </properties>
 
 
+    <modules>
+        <module>feign-invoke</module>
+        <module>feign-provider-a</module>
+        <module>feign-provider-b</module>
+    </modules>
 </project>

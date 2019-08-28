@@ -12,4 +12,7 @@
     <artifactId>spring-cloud-env</artifactId>
 
 
+    <modules>
+        <module>spring-cloud-eureka</module>
+    </modules>
 </project>

@@ -11,9 +11,8 @@ public class FeignController {
 
     @Resource
     FeignService feignService;
-    @GetMapping("invoke")
-    public String invoke() {
-        feignService.invoke();
-
+    @GetMapping("invokeA")
+    public String invokeA() {
+        return feignService.invoke();
     }
 }

@@ -1,13 +1,13 @@
-package com.example.springcloudeureka;
+package com.example.feignproviderc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringCloudEurekaApplication {
+public class FeignProviderCApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringCloudEurekaApplication.class, args);
+        SpringApplication.run(FeignProviderCApplication.class, args);
     }
 
 }
