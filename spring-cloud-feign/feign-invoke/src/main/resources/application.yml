@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: feign-invoke
+server:
+  port: 9000
+# ∑˛ŒÒ◊¢≤· ≈‰÷√
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+# feign http …Ë÷√
+feign:
+  httpclient:
+    disable-ssl-validation: false
+    enabled: true
+    follow-redirects: true
+    max-connections: 200
+    max-connections-per-route: 50
+    time-to-live: 900
+    time-to-live-unit: microseconds
+    connection-timeout: 2000
+    connection-timer-repeat: 3000
+  client:
+    config:
+      feignName:
+        connectTimeout: 5000
+        readTimeout: 5000
+hystrix:
+  threadpool:
+    default:
+      coreSize: 20
